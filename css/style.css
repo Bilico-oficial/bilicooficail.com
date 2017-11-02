@@ -1,0 +1,94 @@
+/*=============================RESET=============================*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{height: 100%;}
+
+@font-face{
+	font-family: "Lato";
+	src: url('../fonts/Lato-Light.ttf');
+}
+
+.button{outline: none;}
+
+/*=============================HEADER=============================*/
+.header{
+	height: 75px;
+	background: black;
+	color: white;}
+
+.logo{
+	width: 100px;
+	height: 70px;
+	margin: 0 auto;
+	background: none;}
+
+#btn_open_menu{
+	position: absolute;
+	float: left;
+	width: 45px;
+	height: 45px;
+	border-radius: 45px;
+	border: none;
+	top: 15px;
+	left: 10px;
+	background: none;
+	font-size: 1.7em;}
+
+#container_social_icons_index{display: none;}
+
+/*=============================SECTION=============================*/
+.section{}
+
+/*=============================FOOTER=============================*/
+.footer{}
+
+
+/*=============================BREAKPOINTS=============================*/
+@media screen and (min-width: 768px){
+	#container_social_icons_index{
+		display: block;
+		position: absolute;
+		float: right;
+		width: 201px;
+		height: 70px;
+		top: 0px;
+		right: 20px;
+		background: none;}
+
+	#left_container_social_index{
+		position: relative;
+		float: left;
+		width: 50px;
+		height: 70px;
+		background: none;
+		text-align: center;}
+	#left_container_social_index span{
+		font-family: "Lato";
+		line-height: 70px;}
+
+	#right_container_social_index{
+		position: relative;
+		float: right;
+		width: 150px;
+		height: 70px;
+		background: none;}
+
+	.social_icons i{
+		display: inline-block;
+		position: relative;
+		width: 40px;
+		height: 40px;
+		top: 15px;
+		margin-left: 5px;
+		padding: 10px 5px;
+		border-radius: 40px;
+		border: 2px solid white;
+		cursor: pointer;
+		text-align: center;
+		font-size: 1.3em;
+		color: white;}
+
+}
