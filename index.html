@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Bilico Oficial</title>
 
 <!--=============================CSS=============================-->
@@ -18,38 +19,44 @@
 <body>
 
 <div class="container-fluid">
-	<div class="row">
+	
 		<!--=============================HEADER=============================-->
+		<div class="row">
 		<header id="header_index" class="header col-xs-12">
-			<button id="btn_open_menu" class="button">
-				<i class="fa fa-bars"></i>
-			</button>
+				<button id="btn_open_menu" class="button">
+					<i class="fa fa-bars"></i>
+				</button>
 
-			<div class="logo">
-				<img src="img/header/teste.png">
-			</div>
-		
-			<div id="container_social_icons_index" class="container_social_icons">
-				<div id="left_container_social_index">
-					<span>Acesse:</span> 
+				<div class="logo">
+					<img src="img/header/logo.png">
 				</div>
-				<div id="right_container_social_index">
-					<div class="social_icons">
-						<i class="fa fa-facebook" title="Facebook"></i>
-						<i class="fa fa-instagram" title="Instagram"></i>
-						<i class="fa fa-envelope" title="E-mail"></i>
+			
+				<div id="container_social_icons_index" class="container_social_icons">
+					<div id="left_container_social_index">
+						<span>Acesse:</span> 
 					</div>
-				</div>
-			</div>	
-		</header>
-
+					<div id="right_container_social_index">
+						<div class="social_icons">
+							<i class="fa fa-facebook" title="Facebook"></i>
+							<i class="fa fa-instagram" title="Instagram"></i>
+							<i class="fa fa-envelope" title="E-mail"></i>
+						</div>
+					</div>
+				</div>	
+			</header>
+		</div>
 		<!--=============================SECTION=============================-->
-		<section id="section_index" class="section"></section>
-
+		<div class="row">
+			<section id="section_index" class="section col-xs-12">
+				<div class="row">
+					<img id="banner_small" src="img/section/banner_small.jpg">
+					<img id="banner_large" src="img/section/banner_large.jpg">
+				</div>
+			</section>
+		</div>
 		<!--=============================FOOTER=============================-->
 		<footer id="footer_index" class="footer"></footer>
-	</div>
-</div>
+		
 
 <!--=============================JAVASCRIPT=============================-->
 <script type="text/javascript" src="js/script.js"></script>
