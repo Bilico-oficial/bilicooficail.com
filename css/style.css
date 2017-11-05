@@ -15,7 +15,9 @@ html,body{height: 100%;}
 
 /*=============================HEADER=============================*/
 .header{
+	position: relative;
 	height: 75px;
+	z-index: 1;
 	background: black;
 	color: white;}
 
@@ -40,8 +42,20 @@ html,body{height: 100%;}
 #container_social_icons_index{display: none;}
 
 /*=============================SECTION=============================*/
-.section{}
+.section{
+	position: absolute;
+	width: 100%;
+	height: 450px;
+	z-index: 2;
+	top: 75px;
+	background: url('../img/section/slider.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 90% 0%;}
 
+.content_section{
+	
+}
 /*=============================FOOTER=============================*/
 .footer{}
 
@@ -91,4 +105,5 @@ html,body{height: 100%;}
 		font-size: 1.3em;
 		color: white;}
 
+	.section{height: 70%;}
 }
