@@ -33,17 +33,20 @@ html,body{height: 100%;}
 	background: url('../img/header/logo_large.png');
 	background-size: cover;}
 
-#btn_open_menu{
+#btn_open_menu,#btn_open_menu_lateral{
 	position: absolute;
+	display: block;
 	float: left;
-	width: 45px;
-	height: 45px;
-	border-radius: 45px;
-	border: none;
-	top: 10px;
+	width: 35px;
+	height: 35px;
+	padding: 2px 0px;
+	border-radius: 35px;
+	border: 2px solid white;
+	top: 15px;
 	left: 10px;
 	background: none;
-	font-size: 1.7em;}
+	font-size: 1.4em;}
+#btn_open_menu_lateral{display: none;}
 
 #container_social_icons_index{display: none;}
 
@@ -118,6 +121,19 @@ html,body{height: 100%;}
 		top: 0px;
 		right: 20px;
 		background: none;}
+
+	#btn_open_menu{display: none;}		
+	#btn_open_menu_lateral{display: block;}
+
+	#menu_esquerda{
+		display: none;
+		position: absolute;
+		width: 200px;
+		height: 100%;
+		z-index: 3;
+		background: black;
+		border: 3px solid;
+		border-color: transparent white transparent transparent;}
 
 	#left_container_social_index{
 		position: relative;
